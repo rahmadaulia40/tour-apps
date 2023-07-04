@@ -1,0 +1,24 @@
+
+    {
+        "id" : 3,
+        "name" : "Pemandian Alam Sejuk",
+        "location" : "X599+V9P, Dolok Hataran, Kec. Siantar, Kabupaten Simalungun, Sumatera Utara 21174",
+        "latitude" : 2.9697730480537023,
+        "longitude" : 99.1685038665545,
+        "Description" : "Pemandian Alam Sejuk (PAS) terletak di Desa/Nagori Mariah Jambi Kecamatan Jawa Maraja Bah Jambi, Kabupaten Simalungun, Sumatera Utara. Lokasi ini berjarak kurang lebih 13 km dari kota Pematang Siantar,  untuk menuju lokasi PAS ditempuh dengan perjalanan kurang lebih setengah jam saja dari kota siantar.Lokasi PAS ini berada di lokasi yang alami, pepohonan yang hijau disekitarnya sangat asri dan menghasilkan udara yang sangat bersih. Suara riuh kicauan burung-burung yang beterbangan kesana-kemari diantara pepohonan dengan suaranya yang merdu semakin menambah suasana khas yang alami. Sehingga bisa memberikan kesegaran ketika menghirupnya sampai ke rongga-rongga pernafasan. Disamping itu, yang tidak kalah menarik adalah aliran air yang mengaliri pemandian ini bersumber langsung dari mata air sehingga terlihat jernih dan tentu saja bersih, walaupun banyaknya orang yang mandi. Aliran air PAS sangat bersih dan jernih karena bersumber dari mata air, pengelolaan PAS dan warga sekitar juga berpartisipasi mengelola aliran air di tempat pemandian ini. Lokasi wisata di kawasan ini merupakan konservasi sumber air, sehingga dikelola warga setempat dengan baik. Bagi yang ingin mandi-mandi, bisa langsung nyebur ke aliran air jernih di sana. Namun, untuk anak-anak, ada tempat yang dipersiapkan khusus. Pemandian ini cukup luas dengan berbagai tingkat kedalaman air mulai dari tinggi hingga rendah.",
+        "fasilitas" : ["Musholla","Kamar Mandi","Joglo/Pondok","Kantin","Parkiran","Sewa Ban","Pemancingan"],
+        "peraturan" : ["Dilarang Membawa Miras","Dilarang Berkata Kasar","Dilarang Membawa Narkoba","Menjaga Kebersihan","Menaati Peraturan Adat Daerah Setempat"],
+        "biaya" : {
+            "individual" : "free",
+            "motor" : "5000",
+            "becak" : "7000",
+            "mobil" : "10000",
+            "kamarmandi" : "2000",
+            "pondok" : "25000",
+            "ban" : "5000",
+            "pemancingan" : "30000"
+        },
+        "image" : ["PAS_1","PAS_2","PAS_3"],
+        "image360" : ["PAS_360_1","PAS_360_2","PAS_360_3","PAS_360_4","PAS_360_5"]
+
+    }

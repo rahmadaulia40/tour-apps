@@ -1,0 +1,23 @@
+
+    {
+        "id" : 1,
+        "name" : "Karang Anyer",
+        "location" : "245G+MXP, Karang Rejo, Kec. Gn. Maligas, Kabupaten Simalungun, Sumatera Utara 21174",
+        "latitude" : 3.00941937825708,
+        "longitude" : 99.12752183068054,
+        "Description" : "Desa Wisata karang anyar terletak di Nagori Kecamatan Gunung Maligas, karang anyar tersebut memiliki arti PERKARANGAN BARU, konon katanya Air yang muncul di desa karang anyar berasal dari aliran mata air bah pamujian yang dulunya menjadi tempat pemujaan masyarakat setempat yang mata airnya berasal dari Danau Toba. Pada tahun 1970 Desa tersebut menjadi ikon wisata alam, wisata air dan buatan yang menjadi primadona. Didalam desa tersebut juga memiliki pohon beringin yang sudah berumur ratusan tahun dan sebagai salah satu lokasi mata air di Desa tersebut.",
+        "fasilitas" : ["Musholla","Kamar Mandi","Joglo/Pondok","Kantin","Parkiran","Sewa Ban"],
+        "peraturan" : ["Dilarang Membawa Miras","Dilarang Berkata Kasar","Dilarang Membawa Narkoba","Menjaga Kebersihan","Menaati Peraturan Adat Daerah Setempat"],
+        "biaya" : {
+            "individual" : "free",
+            "motor" : "5000",
+            "becak" : "7000",
+            "mobil" : "10000",
+            "kamarmandi" : "2000",
+            "pondok" : "25000",
+            "ban" : "5000"
+        },
+        "image" : ["KA_1","KA_2","KA_3","KA_4","KA_5"],
+        "image360" : ["KA_360_1","KA_360_2","KA_360_3","KA_360_4","KA_360_5"]
+
+    }

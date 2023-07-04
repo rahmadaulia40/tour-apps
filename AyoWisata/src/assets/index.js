@@ -1,7 +1,3 @@
-//Image
-export * from './icon';
-export * from './ilustrations';
-
-//Json
-
-export * from './json';
+export * from './Icon'
+export * from './Images'
+export * from './Json'

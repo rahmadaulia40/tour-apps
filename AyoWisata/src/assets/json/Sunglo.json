@@ -1,0 +1,23 @@
+
+    {
+        "id" : 4,
+        "name" : "Sungai Lobang",
+        "location" : "377H+5GX, Unnamed Road, Kerasaan I, Kec. Pematang Bandar, Kabupaten Simalungun, Sumatera Utara 21186",
+        "latitude" : 3.063138799541847,
+        "longitude" : 99.27888918116982,
+        "Description" : "Sungai lobang adalah sungai yang berbeda dengan sungai pada umumnya. Sungai lobang adalah sungai yang berbeda dengan sungai pada umumnya. Sungai ini memiliki kualitas air yang sangat bening dan airnya berwarna biru seperti warna air laut, disebut sebagai sungai lobang karena ditengah kola mini terdapat lubang besar yang dalamnya mencapai lebih kurang 50 meter. Sungai Lobang terbentuk sekitar ratusan tahun lalu akibat letusan dari bawah tanah. Hasil letusan tersebut kemudian menjadi lubang mata air yang begitu besar. Kedalamannya belum pernah ada yang mencoba mengukur",
+        "fasilitas" : ["Musholla","Kamar Mandi","Joglo/Pondok","Kantin","Parkiran","Sewa Ban"],
+        "peraturan" : ["Dilarang Membawa Miras","Dilarang Berkata Kasar","Dilarang Memanjat Pohon Yang Ada","Dilarang Membawa Narkoba","Menjaga Kebersihan","Menaati Peraturan Adat Daerah Setempat"],
+        "biaya" : {
+            "individual" : "free",
+            "motor" : "5000",
+            "becak" : "7000",
+            "mobil" : "10000",
+            "kamarmandi" : "2000",
+            "pondok" : "25000",
+            "ban" : "5000"
+        },
+        "image" : ["SUNGLO_1","SUNGLO_2","SUNGLO_3"],
+        "image360" : ["SUNGLO_360_1","SUNGLO_360_2","SUNGLO_360_3"]
+
+    }

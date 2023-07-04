@@ -1,0 +1,23 @@
+
+    {
+        "id" : 2,
+        "name" : "Marihat Bandar",
+        "location" : "475M+VQ4 Simpang Kalvin, Pematang Kerasaan Rejo, Kec. Bandar, Kabupaten Simalungun, Sumatera Utara 21184",
+        "latitude" : 3.1097577889689574,
+        "longitude" : 99.28448056604633,
+        "Description" : "Kolam pemandian umbul mabar sudah ada sejak ratusan tahun lalu. Dahulunya kawasan ini merupakan hutan belantara. Sementara itu, umbul mabar sering di manfaatkan warga sekitar untuk mencuci dan mandi di pagi hari. Akses jalan menuju lokasi terbilang cukup bagus sekarang karna sudah ada perbaikan pemerintah daerah dan sekarang kendaraan roda 4 sudah bisa masuk kedalam lokasi wisata umbul mabar.",
+        "fasilitas" : ["Musholla Al-Fallah","Kamar Mandi","Joglo/Pondok","Kantin","Parkiran","Sewa Ban"],
+        "peraturan" : ["Dilarang Membawa Miras","Dilarang Berkata Kasar","Dilarang Memanjat Pohon Yang Ada","Dilarang Membawa Narkoba","Menjaga Kebersihan","Menaati Peraturan Adat Daerah Setempat"],
+        "biaya" : {
+            "individual" : "free",
+            "motor" : "5000",
+            "becak" : "7000",
+            "mobil" : "10000",
+            "kamarmandi" : "2000",
+            "pondok" : "25000",
+            "ban" : "5000"
+        },
+        "image" : ["MABAR_1","MABAR_2","MABAR_3","MABAR_4","MABAR_5","MABAR_6"],
+        "image360" : ["MABAR_360_1","MABAR_360_2","MABAR_360_3","MABAR_360_4","MABAR_360_5"]
+
+    }

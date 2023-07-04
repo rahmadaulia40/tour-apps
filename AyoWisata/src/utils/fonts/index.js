@@ -1,4 +1,4 @@
-export const fonts = {
+export const Fonts = {
     primary: {
         200: 'Nunito-ExtraLight',
         300: 'Nunito-Light',

@@ -1,17 +1,17 @@
 
 const TheStrom= {
-    primary : '#1f8c80',
-    secondary : '#F7F2EF',
-    tertiary : '#E1DDD2',
-    fourth : '#e4cc2e',
+    primary : '#006775',
+    secondary : '#f9bf15',
+    tertiary : '#2a9f29',
+    fourth : '#ffffff',
     success : '#0BCAD4',
     error : '#E06379',
     title : '#555A54',
     
 }
 const color = TheStrom
-export const colors = {
-    background : color.secondary,
+export const Colors = {
+    background : color.fourth,
     primary : color.primary,
     secondary : color.tertiary,
     tertiary : color.fourth,

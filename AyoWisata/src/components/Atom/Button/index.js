@@ -1,19 +1,9 @@
 import React from 'react';
 import {StyleSheet, Text, TouchableOpacity, View} from 'react-native';
-import { colors, fonts } from '../../../utils';
-import BtnIconSend from './BtnIconSend';
-import IconOnly from './icononly';
+import { Colors, Fonts } from '../../../Utils';
 
 const Button = ({type, title, onPress, icon, disable, color}) => {
-  if (type === 'btn-icon-send')
-  {
-    return <BtnIconSend disable={disable} onPress={onPress}/>
-  }
-  else if(type === 'icon-only')
-  {
-    return <IconOnly icon ={icon} onPress={onPress}/>
-  }
-  else if(disable){
+  if(disable){
     return (
       <View style={styles.disableBg}>
           <Text style={styles.disableText}>{title}</Text>
@@ -38,7 +28,7 @@ export default Button
 
 const styles = StyleSheet.create({
   container : (type)=>({
-    backgroundColor: type === 'secondary' ? colors.button.secondary.background : colors.button.primary.background,
+    backgroundColor: type === 'secondary' ? Colors.button.secondary.background : Colors.button.primary.background,
     paddingVertical: 10,
     borderRadius: 5,
     elevation: 5,
@@ -49,11 +39,11 @@ const styles = StyleSheet.create({
   title :(type)=>({
     fontSize : 15,
     textAlign: 'center',
-    color: type === 'secondary' ? colors.button.secondary.text : colors.button.primary.text,
-    fontFamily : fonts.primary[600],
+    color: type === 'secondary' ? Colors.button.secondary.text : Colors.button.primary.text,
+    fontFamily : Fonts.primary[600],
   }),
   disableBg : {
-    backgroundColor: colors.button.disable.background,
+    backgroundColor: Colors.button.disable.background,
     paddingVertical: 10,
     borderRadius: 5,
     flex: 1,
@@ -62,11 +52,11 @@ const styles = StyleSheet.create({
   disableText : {
     fontSize : 15,
     textAlign: 'center',
-    color: colors.text.menuInactive,
-    fontFamily : fonts.primary[600]
+    color: Colors.text.menuInactive,
+    fontFamily : Fonts.primary[600]
   },
   container1 : (type)=>({
-    backgroundColor: type === 'primary' ? colors.button.secondary.background : colors.button.primary.background,
+    backgroundColor: type === 'primary' ? Colors.button.secondary.background : Colors.button.primary.background,
     paddingVertical: 10,
     flex: 1,
     borderBottomLeftRadius: 10,
@@ -75,7 +65,7 @@ const styles = StyleSheet.create({
   title1 :(type)=>({
     fontSize : 15,
     textAlign: 'center',
-    color: type === 'primary' ? colors.button.secondary.text : colors.button.primary.text,
-    fontFamily : fonts.primary[600],
+    color: type === 'primary' ? Colors.button.secondary.text : Colors.button.primary.text,
+    fontFamily : Fonts.primary[600],
   }),
 })
