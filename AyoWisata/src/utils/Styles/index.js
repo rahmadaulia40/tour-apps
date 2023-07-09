@@ -26,6 +26,13 @@ export const Styles = StyleSheet.create({
       fontWeight: 'bold',
       paddingHorizontal: 10,
     },
+    header2 : {
+      color: Colors.text.primary,
+      marginHorizontal: 10,
+      fontWeight: 'bold',
+      fontSize: 16,
+      paddingBottom: 5
+    },
     title : {
       fontSize : 22,
       color : 'white',
@@ -37,10 +44,17 @@ export const Styles = StyleSheet.create({
       color : 'white',
       fontFamily: Fonts.primary[800],
     },
+    Desc2 : {
+      color: Colors.text.menuInactive,
+      marginHorizontal: 10,
+      textAlign: 'justify'
+    },
     titleSplash : {
-      textAlign: 'center',
       color: Colors.text.secondary,
-      fontWeight: 'bold'
+      fontWeight: 'bold',
+      position: 'absolute',
+      bottom: 20,
+      alignSelf: 'center'
     },
     logo: {
       height: '100%',
@@ -50,7 +64,7 @@ export const Styles = StyleSheet.create({
     },
     logoSplash: {
       height: '60%',
-      width: '100%',
+      width: '70%',
       alignSelf: 'center'
       
     },
@@ -65,7 +79,8 @@ export const Styles = StyleSheet.create({
       height: 200,
       width: '100%',
       borderBottomRightRadius: 20,
-      borderBottomLeftRadius: 20
+      borderBottomLeftRadius: 20,
+      borderBottomWidth: 20
     },
     button : {
       flexDirection: 'row',
@@ -77,6 +92,14 @@ export const Styles = StyleSheet.create({
       marginHorizontal: 10,
       justifyContent: 'space-between',
       backgroundColor: 'black',
-      borderRadius: 10
+      borderRadius: 10,
+      elevation: 10
+    },
+    liner : {
+      marginHorizontal: 10,
+      marginTop: 10,
+      backgroundColor: Colors.primary,
+      height: 1,
+      opacity: 0.5
     }
   })

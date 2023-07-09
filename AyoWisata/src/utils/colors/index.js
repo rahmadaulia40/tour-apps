@@ -15,7 +15,7 @@ export const Colors = {
     primary : color.primary,
     secondary : color.tertiary,
     tertiary : color.fourth,
-    white : color.secondary,
+    white : color.fourth,
     black : color.primary,
     disable : color.fourth,
     text : {

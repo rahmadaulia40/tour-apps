@@ -1,6 +1,7 @@
 import React from 'react';
 import {StyleSheet, Text, TouchableOpacity, View} from 'react-native';
 import { Colors, Fonts } from '../../../Utils';
+import IconOnly from './icononly';
 
 const Button = ({type, title, onPress, icon, disable, color}) => {
   if(disable){
@@ -10,12 +11,9 @@ const Button = ({type, title, onPress, icon, disable, color}) => {
       </View>
     )
   }
-  else if(type === 'btn-left-right'){
-    return (
-      <TouchableOpacity style={styles.container1(color)} onPress={onPress}>
-          <Text style={styles.title1(color)}>{title}</Text>
-      </TouchableOpacity>
-    )
+  if(type === 'icon-only')
+  {
+    return <IconOnly  icon={icon} onPress={onPress}/>
   }
   return (
     <TouchableOpacity style={styles.container(type)} onPress={onPress}>
@@ -28,7 +26,7 @@ export default Button
 
 const styles = StyleSheet.create({
   container : (type)=>({
-    backgroundColor: type === 'secondary' ? Colors.button.secondary.background : Colors.button.primary.background,
+    backgroundColor: type === 'secondary' ? Colors.white : Colors.button.primary.background,
     paddingVertical: 10,
     borderRadius: 5,
     elevation: 5,
@@ -39,8 +37,9 @@ const styles = StyleSheet.create({
   title :(type)=>({
     fontSize : 15,
     textAlign: 'center',
-    color: type === 'secondary' ? Colors.button.secondary.text : Colors.button.primary.text,
+    color: type === 'secondary' ? Colors.button.secondary.text : Colors.white,
     fontFamily : Fonts.primary[600],
+    fontWeight: 'bold'
   }),
   disableBg : {
     backgroundColor: Colors.button.disable.background,

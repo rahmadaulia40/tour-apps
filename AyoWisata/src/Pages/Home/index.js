@@ -2,9 +2,9 @@ import React from 'react';
 import {Image, ImageBackground, Text, View, ScrollView} from 'react-native';
 import { BoxImage, Button, Gap, HeaderImage } from '../../components';
 import { Colors, Styles } from '../../Utils';
-import { DataWisata, Image_GetStarted, Image_Logo, KA_1, MABAR_1, PAS_1, SUNGLO_1 } from '../../Assets/';
+import { DataWisata, Image_GetStarted, Image_Logo, KA_1, MABAR_1, PAS_1, SUNGLO_1 } from '../../Assets';
 
-const GetStarted = ({navigation}) => {
+const Home = ({navigation}) => {
   return (
       <View style={Styles.page}>
           <ScrollView showsVerticalScrollIndicator={false}>
@@ -25,6 +25,7 @@ const GetStarted = ({navigation}) => {
                   image={images[0]}
                   title={item.name}
                   desc={item.location}
+                  onPress={()=> navigation.navigate('DetailWisata', item)}
                 />
               )
             })}
@@ -45,5 +46,5 @@ const GetStarted = ({navigation}) => {
   )
 }
 
-export default GetStarted
+export default Home
 

@@ -6,8 +6,8 @@ import { Image_GetStarted, Image_Logo } from '../../Assets';
 const Splash = ({navigation}) => {
   useEffect(()=>{
     setTimeout(()=>{
-        navigation.replace('GetStarted')
-    },5000)
+        navigation.replace('Home')
+    },6000)
   },[])
 
   return (

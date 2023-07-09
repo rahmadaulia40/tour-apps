@@ -1,7 +1,7 @@
 import { View, Text, ImageBackground, Image } from 'react-native'
 import React from 'react'
 import { Gap } from '../../Atom'
-import { Styles } from '../../../Utils'
+import { Colors, Styles } from '../../../Utils'
 
 const HeaderImage = ({imageBackground, logo, header}) => {
   return (

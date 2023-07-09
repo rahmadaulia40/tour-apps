@@ -1,7 +1,9 @@
 import Splash from "./Splash";
-import GetStarted from "./GetStarted";
+import Home from "./Home";
+import DetailWisata from "./DetailWisata";
 
 export {
     Splash,
-    GetStarted
+    Home,
+    DetailWisata
 }

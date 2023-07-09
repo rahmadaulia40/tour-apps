@@ -1,6 +1,6 @@
 import React from 'react'
 import { createStackNavigator } from '@react-navigation/stack';
-import { GetStarted, Splash } from '../Pages';
+import { DetailWisata, Home, Splash } from '../Pages';
 
 const Stack = createStackNavigator();
 
@@ -8,7 +8,8 @@ export default Router = () => {
   return (
     <Stack.Navigator initialRouteName='Splash'>
       <Stack.Screen name="Splash" component={Splash} options={OptionsScreen}/>
-      <Stack.Screen name="GetStarted" component={GetStarted} options={OptionsScreen}/>
+      <Stack.Screen name="Home" component={Home} options={OptionsScreen}/>
+      <Stack.Screen name="DetailWisata" component={DetailWisata} options={OptionsScreen}/>
     </Stack.Navigator>
   )
 }
