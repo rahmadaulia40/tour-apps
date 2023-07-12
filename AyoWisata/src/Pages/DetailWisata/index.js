@@ -6,6 +6,7 @@ import { Button, Gap, Header } from '../../components';
 
 const DetailWisata = ({route, navigation}) => {
   const data = route.params
+  const image360 = data.image360
   const OldPicture = data.image;
   const newPicture = []
   for(i=0;i<OldPicture.length;i++){
@@ -41,7 +42,7 @@ const DetailWisata = ({route, navigation}) => {
             <Text style={Styles.Desc}>Destinasi seru dengan View 360°</Text>
           </View>
           <Gap height={15}/>
-          <Button title='View 360' type='secondary'/>
+          <Button title='View 360°' type='secondary' onPress={()=> navigation.navigate('View360', image360)}/>
         </View>
         <View style={Styles.liner}/>
         <Gap height={10}/>
