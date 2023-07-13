@@ -18,6 +18,10 @@ import {
     SUNGLO_3, SUNGLO_360_2,
     SUNGLO_360_3
 } from "../../Assets"
+import { KA_360_1_Base64, KA_360_2_Base64, KA_360_3_Base64, KA_360_4_Base64, KA_360_5_Base64 } from "./KA_360_Base64"
+import { MABAR_360_1_Base64, MABAR_360_2_Base64, MABAR_360_3_Base64, MABAR_360_4_Base64, MABAR_360_5_Base64 } from "./MABAR_360_Base64"
+import { PAS_360_1_Base64, PAS_360_2_Base64, PAS_360_3_Base64, PAS_360_4_Base64, PAS_360_5_Base64 } from "./PAS_360_Base64"
+import { SUNGLO_360_1_Base64, SUNGLO_360_2_Base64, SUNGLO_360_3_Base64 } from "./SUNGLO_360_Base64"
 
 export const Images =(image)=>{
     if(image == 'KA_1') return KA_1
@@ -40,24 +44,26 @@ export const Images =(image)=>{
     else return KA_1
 }
 
+
+
 export const Images360=(image)=>{
-    if(image == 'KA_360_1') return KA_360_1
-    else if(image == 'KA_360_2') return KA_360_2
-    else if(image == 'KA_360_3') return KA_360_3
-    else if(image == 'KA_360_4') return KA_360_4
-    else if(image == 'KA_360_5') return KA_360_5
-    else if(image == 'MABAR_360_1') return MABAR_360_1
-    else if(image == 'MABAR_360_2') return MABAR_360_2
-    else if(image == 'MABAR_360_3') return MABAR_360_3
-    else if(image == 'MABAR_360_4') return MABAR_360_4
-    else if(image == 'MABAR_360_5') return MABAR_360_5
-    else if(image == 'PAS_360_1') return PAS_360_1
-    else if(image == 'PAS_360_2') return PAS_360_2
-    else if(image == 'PAS_360_3') return PAS_360_3
-    else if(image == 'PAS_360_4') return PAS_360_4
-    else if(image == 'PAS_360_5') return PAS_360_5
-    else if(image == 'SUNGLO_360_1') return SUNGLO_360_1
-    else if(image == 'SUNGLO_360_2') return SUNGLO_360_2
-    else if(image == 'SUNGLO_360_3') return SUNGLO_360_3
-    else return KA_360_1
+    if(image == 'KA_360_1') return KA_360_1_Base64
+    else if(image == 'KA_360_2') return KA_360_2_Base64
+    else if(image == 'KA_360_3') return KA_360_3_Base64
+    else if(image == 'KA_360_4') return KA_360_4_Base64
+    else if(image == 'KA_360_5') return KA_360_5_Base64
+    else if(image == 'MABAR_360_1') return MABAR_360_1_Base64
+    else if(image == 'MABAR_360_2') return MABAR_360_2_Base64
+    else if(image == 'MABAR_360_3') return MABAR_360_3_Base64
+    else if(image == 'MABAR_360_4') return MABAR_360_4_Base64
+    else if(image == 'MABAR_360_5') return MABAR_360_5_Base64
+    else if(image == 'PAS_360_1') return PAS_360_1_Base64
+    else if(image == 'PAS_360_2') return PAS_360_2_Base64
+    else if(image == 'PAS_360_3') return PAS_360_3_Base64
+    else if(image == 'PAS_360_4') return PAS_360_4_Base64
+    else if(image == 'PAS_360_5') return PAS_360_5_Base64
+    else if(image == 'SUNGLO_360_1') return SUNGLO_360_1_Base64
+    else if(image == 'SUNGLO_360_2') return SUNGLO_360_2_Base64
+    else if(image == 'SUNGLO_360_3') return SUNGLO_360_3_Base64
+    else return KA_360_1_Base64
 }
