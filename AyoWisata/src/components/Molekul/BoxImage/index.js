@@ -3,7 +3,7 @@ import React from 'react'
 import { Images, Styles } from '../../../Utils'
 import { Gap } from '../../Atom'
 
-const BoxImage = ({title, desc, image, onPress}) => {
+const BoxImage = ({title, desc, image, onPress, jarak}) => {
   return (
     <TouchableOpacity onPress={onPress}>
     <ImageBackground source={Images(image)} style={Styles.boxWisata} imageStyle={{borderRadius: 10, opacity: 0.6}}>
@@ -11,7 +11,7 @@ const BoxImage = ({title, desc, image, onPress}) => {
             <Text style={Styles.title}>{title}</Text>
             <Text style={Styles.Desc}>{desc}</Text>
         </View>
-        <View/>
+        <Text style={Styles.Desc}>{jarak}</Text>
     </ImageBackground>
     <Gap height={10}/>
     </TouchableOpacity>

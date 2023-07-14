@@ -1,23 +1,4 @@
-import {
-    KA_1, KA_360_1,
-    KA_2, KA_360_2,
-    KA_3, KA_360_3,
-    KA_4, KA_360_4,
-    KA_5, KA_360_5,
-    MABAR_1, MABAR_360_1,
-    MABAR_2, MABAR_360_2,
-    MABAR_3, MABAR_360_3,
-    MABAR_4, MABAR_360_4,
-    MABAR_5, MABAR_360_5,
-    MABAR_6, PAS_360_1,
-    PAS_1, PAS_360_2,
-    PAS_2, PAS_360_3,
-    PAS_3, PAS_360_4,
-    SUNGLO_1, PAS_360_5,
-    SUNGLO_2, SUNGLO_360_1,
-    SUNGLO_3, SUNGLO_360_2,
-    SUNGLO_360_3
-} from "../../Assets"
+import {KA_1, KA_2, KA_3, KA_4, KA_5, MABAR_1, MABAR_2, MABAR_3, MABAR_4, MABAR_5, MABAR_6, PAS_1, PAS_2, PAS_3, SUNGLO_1, SUNGLO_2, SUNGLO_3} from "../../Assets"
 import { KA_360_1_Base64, KA_360_2_Base64, KA_360_3_Base64, KA_360_4_Base64, KA_360_5_Base64 } from "./KA_360_Base64"
 import { MABAR_360_1_Base64, MABAR_360_2_Base64, MABAR_360_3_Base64, MABAR_360_4_Base64, MABAR_360_5_Base64 } from "./MABAR_360_Base64"
 import { PAS_360_1_Base64, PAS_360_2_Base64, PAS_360_3_Base64, PAS_360_4_Base64, PAS_360_5_Base64 } from "./PAS_360_Base64"
@@ -43,8 +24,6 @@ export const Images =(image)=>{
     else if(image == 'SUNGLO_3') return SUNGLO_3
     else return KA_1
 }
-
-
 
 export const Images360=(image)=>{
     if(image == 'KA_360_1') return KA_360_1_Base64

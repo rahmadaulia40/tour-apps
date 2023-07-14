@@ -1,7 +1,7 @@
 import { View, Text, ScrollView } from 'react-native'
 import React from 'react'
 import ImageSlider from 'react-native-image-slider';
-import { Colors, Images, Styles } from '../../Utils';
+import { Colors, Currency, Images, Styles } from '../../Utils';
 import { Button, Gap, Header } from '../../components';
 
 const DetailWisata = ({route, navigation}) => {
@@ -49,25 +49,25 @@ const DetailWisata = ({route, navigation}) => {
 
         <Text style={Styles.header2}>Fasilitas :</Text>
         {data.fasilitas.map((res)=>{
-          return <Text style={Styles.Desc2}> - {res}</Text>
+          return <Text key={res} style={Styles.Desc2}> - {res}</Text>
         })}
         <View style={Styles.liner}/>
         <Gap height={10}/>
 
         <Text style={Styles.header2}>Biaya :</Text>
         <Text style={Styles.Desc2}> - Individual : {data.biaya.individual}</Text>
-        <Text style={Styles.Desc2}> - Motor : {data.biaya.motor}</Text>
-        <Text style={Styles.Desc2}> - Becak : {data.biaya.becak}</Text>
-        <Text style={Styles.Desc2}> - Mobil : {data.biaya.mobil}</Text>
-        <Text style={Styles.Desc2}> - Kamar Mandi : {data.biaya.kamarmandi}</Text>
-        <Text style={Styles.Desc2}> - Pondok : {data.biaya.pondok}</Text>
-        <Text style={Styles.Desc2}> - Ban : {data.biaya.ban}</Text>
+        <Text style={Styles.Desc2}> - Motor : Rp.{Currency(Number(data.biaya.motor))}</Text>
+        <Text style={Styles.Desc2}> - Becak : Rp.{Currency(Number(data.biaya.becak))}</Text>
+        <Text style={Styles.Desc2}> - Mobil : Rp.{Currency(Number(data.biaya.mobil))}</Text>
+        <Text style={Styles.Desc2}> - Kamar Mandi : Rp.{Currency(Number(data.biaya.kamarmandi))}</Text>
+        <Text style={Styles.Desc2}> - Pondok : Rp.{Currency(Number(data.biaya.pondok))}</Text>
+        <Text style={Styles.Desc2}> - Ban : Rp.{Currency(Number(data.biaya.ban))}</Text>
         <View style={Styles.liner}/>
         <Gap height={10}/>
 
         <Text style={Styles.header2}>Peraturan :</Text>
         {data.peraturan.map((res)=>{
-          return <Text style={Styles.Desc2}> - {res}</Text>
+          return <Text key={res} style={Styles.Desc2}> - {res}</Text>
         })}
         <View style={Styles.liner}/>
         <Gap height={10}/>
@@ -78,7 +78,7 @@ const DetailWisata = ({route, navigation}) => {
             <Text style={Styles.Desc}>Lakukan perjalanan dengan Google Maps.</Text>
           </View>
           <Gap height={15}/>
-          <Button title='Lihat di Maps' type='secondary'/>
+          <Button title='Lihat di Maps' type='secondary' onPress={()=>navigation.navigate('ViewMaps', data)}/>
         </View>
 
       </ScrollView>
