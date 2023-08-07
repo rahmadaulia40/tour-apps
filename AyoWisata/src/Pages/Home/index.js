@@ -12,7 +12,7 @@ const Home = ({navigation, route}) => {
             <HeaderImage
               imageBackground={Image_GetStarted}
               logo={Image_Logo}
-              header='Jelajahi Destinasi Seru Diseluruh Desa Simalungun'
+              header='Jelajahi Destinasi Seru Diseluruh Kabupaten Simalungun'
             />
 
             <Gap height={50}/>

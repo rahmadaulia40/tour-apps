@@ -1,0 +1,24 @@
+
+    {
+        "id" : 5,
+        "name" : "Bah Damanik",
+        "location" : "Ambarisan, Kec. Sidamanik, Kabupaten Simalungun, Sumatera Utara 21161",
+        "latitude" : 2.8651340359457462,
+        "longitude" : 98.92081532349937,
+        "Description" : "Pemandian Bah Damanik atau biasa disebut Aek Manik, yang merupakan sebuah lokasi wisata air alami dimana airnya sangat jernih dan menyegarkan. Pemandian Bah Damanik ini dulunya disebut-sebut sebagai tempat mandi dari Raja Damanik berserta keluarganya. Selain itu saking jernihnya air di kolamnya warga sekitar mengklaim bahwa airnya bisa langsung diminum tanpa dimasak terlebih dahulu. Dan ternyata yang mengelola pemandian ini pun masih merupakan keturunan dari Raja Damanik itu sendiri, dan menjaga dengan baik kelestarian wilayah tersebut.",
+        "fasilitas" : ["Kamar Mandi","Joglo/Pondok","Kantin","Parkiran","Sewa Ban"],
+        "peraturan" : ["Dilarang Membawa Miras","Dilarang Berkata Kasar","Dilarang Membawa Narkoba","Menjaga Kebersihan","Menaati Peraturan Adat Daerah Setempat"],
+        "biaya" : {
+            "individual" : "Free",
+            "motor" : "5000",
+            "becak" : "7000",
+            "mobil" : "10000",
+            "kamarmandi" : "2000",
+            "pondok" : "25000",
+            "ban" : "5000"
+        },
+        "image" : ["BD_1","BD_2","BD_3","BD_4","BD_5"],
+        "image360" : ["BD_360_1","BD_360_2","BD_360_3","BD_360_4","BD_360_5","BD_360_6","BD_360_7"],
+        "ket_image_360" : ["Area Pemandian 1", "Area Pemandian 2", "Area Pemandian 3","Area Joglo","Jalan Masuk & Keluar","Akses Turun Wisata","Area Parkir"]
+
+    }

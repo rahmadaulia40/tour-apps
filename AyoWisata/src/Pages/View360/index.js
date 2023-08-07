@@ -6,8 +6,11 @@ import { Colors, Images360 } from '../../Utils';
 import { Header } from '../../components';
 
 const View360 = ({route, navigation}) => {
-  const image360 = route.params
+  const data = route.params
+  const image360 = data.image360
+  const keterangan = data.ket_image_360
   const [viewImage, setviewImage] = useState(image360[0])
+  const [viewKet, setviewKet] = useState(keterangan[0])
 
   const ButtonViewImage = ({onPress, number, name})=>{
       return (
@@ -30,11 +33,16 @@ const View360 = ({route, navigation}) => {
       </a-scene>
     </body>
     </html>`;
+  
+  const onButtonPress =(number)=>{
+    setviewImage(image360[Number(number)-1]),
+    setviewKet(keterangan[Number(number)-1])
+  }
 
   return (
     <>
       <View style={{ flex: 1}}>
-      <Header title='Virtual Tour' type='dark' onPress={()=> navigation.goBack()}/>
+      <Header title={viewKet} type='dark' onPress={()=> navigation.goBack()}/>
         <WebView
           originWhitelist={['*']}
           javaScriptEnabled={true}
@@ -52,7 +60,7 @@ const View360 = ({route, navigation}) => {
               key={number}
               number={number}
               name={res}
-              onPress={()=>setviewImage(image360[Number(number)-1])}
+              onPress={()=>onButtonPress(number)}
             />
           )
         })}

@@ -18,6 +18,7 @@
             "ban" : "5000"
         },
         "image" : ["MABAR_1","MABAR_2","MABAR_3","MABAR_4","MABAR_5","MABAR_6"],
-        "image360" : ["MABAR_360_1","MABAR_360_2","MABAR_360_3","MABAR_360_4","MABAR_360_5"]
+        "image360" : ["MABAR_360_1","MABAR_360_2","MABAR_360_3","MABAR_360_4","MABAR_360_5"],
+        "ket_image_360" : ["Area Parkir", "Akses Turun Wisata","Area Joglo Wisata","Area Pemandian 1","Area Pemandian 2"]
 
     }

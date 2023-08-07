@@ -18,6 +18,7 @@
             "ban" : "5000"
         },
         "image" : ["SUNGLO_1","SUNGLO_2","SUNGLO_3"],
-        "image360" : ["SUNGLO_360_1","SUNGLO_360_2","SUNGLO_360_3"]
+        "image360" : ["SUNGLO_360_1","SUNGLO_360_2","SUNGLO_360_3"],
+        "ket_image_360" : ["Area Pemandian", "Akses Turun & Masuk", "Area Parkir"]
 
     }

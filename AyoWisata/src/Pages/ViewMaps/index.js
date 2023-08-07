@@ -3,7 +3,6 @@ import React from 'react'
 import { Colors, Styles } from '../../Utils'
 import { Header } from '../../components'
 import MapView, { Marker, Polyline }from 'react-native-maps';
-import { IconMarker } from '../../Assets';
 
 const ViewMaps = ({navigation, route}) => {
     const data = route.params

@@ -19,6 +19,7 @@
             "pemancingan" : "30000"
         },
         "image" : ["PAS_1","PAS_2","PAS_3"],
-        "image360" : ["PAS_360_1","PAS_360_2","PAS_360_3","PAS_360_4","PAS_360_5"]
+        "image360" : ["PAS_360_1","PAS_360_2","PAS_360_3","PAS_360_4","PAS_360_5"],
+        "ket_image_360" : ["Area Pemandian Dewasa", "Area Joglo","Area Joglo & Souvenir","Akses Masuk & Turun","Area Parkir"]
 
     }

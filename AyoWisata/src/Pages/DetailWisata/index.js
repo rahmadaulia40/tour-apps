@@ -6,7 +6,6 @@ import { Button, Gap, Header } from '../../components';
 
 const DetailWisata = ({route, navigation}) => {
   const data = route.params
-  const image360 = data.image360
   const OldPicture = data.image;
   const newPicture = []
   for(i=0;i<OldPicture.length;i++){
@@ -42,7 +41,7 @@ const DetailWisata = ({route, navigation}) => {
             <Text style={Styles.Desc}>Destinasi seru dengan View 360°</Text>
           </View>
           <Gap height={15}/>
-          <Button title='View 360°' type='secondary' onPress={()=> navigation.navigate('View360', image360)}/>
+          <Button title='View 360°' type='secondary' onPress={()=> navigation.navigate('View360', data)}/>
         </View>
         <View style={Styles.liner}/>
         <Gap height={10}/>
@@ -56,12 +55,12 @@ const DetailWisata = ({route, navigation}) => {
 
         <Text style={Styles.header2}>Biaya :</Text>
         <Text style={Styles.Desc2}> - Individual : {data.biaya.individual}</Text>
-        <Text style={Styles.Desc2}> - Motor : Rp.{Currency(Number(data.biaya.motor))}</Text>
-        <Text style={Styles.Desc2}> - Becak : Rp.{Currency(Number(data.biaya.becak))}</Text>
-        <Text style={Styles.Desc2}> - Mobil : Rp.{Currency(Number(data.biaya.mobil))}</Text>
-        <Text style={Styles.Desc2}> - Kamar Mandi : Rp.{Currency(Number(data.biaya.kamarmandi))}</Text>
-        <Text style={Styles.Desc2}> - Pondok : Rp.{Currency(Number(data.biaya.pondok))}</Text>
-        <Text style={Styles.Desc2}> - Ban : Rp.{Currency(Number(data.biaya.ban))}</Text>
+        <Text style={Styles.Desc2}> - Motor : {Currency(Number(data.biaya.motor))}</Text>
+        <Text style={Styles.Desc2}> - Becak : {Currency(Number(data.biaya.becak))}</Text>
+        <Text style={Styles.Desc2}> - Mobil : {Currency(Number(data.biaya.mobil))}</Text>
+        <Text style={Styles.Desc2}> - Kamar Mandi : {Currency(Number(data.biaya.kamarmandi))}</Text>
+        <Text style={Styles.Desc2}> - Pondok : {Currency(Number(data.biaya.pondok))}</Text>
+        <Text style={Styles.Desc2}> - Ban : {Currency(Number(data.biaya.ban))}</Text>
         <View style={Styles.liner}/>
         <Gap height={10}/>
 

@@ -1,5 +1,5 @@
-import KA_1 from './KA_1.jpeg'
-import KA_2 from './KA_2.jpeg'
+import KA_1 from './KA_1.jpg'
+import KA_2 from './KA_2.jpg'
 import KA_3 from './KA_3.jpeg'
 import KA_4 from './KA_4.jpeg'
 import KA_5 from './KA_5.jpeg'
